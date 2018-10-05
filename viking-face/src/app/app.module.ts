@@ -9,6 +9,10 @@ import { HomeModule } from './components/home/home.module';
 
 import { AppComponent } from './app.component';
 
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { ModalModule } from 'ngx-bootstrap/modal';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -23,6 +27,9 @@ import { AppComponent } from './app.component';
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ]),
     HomeModule,
+    BsDropdownModule.forRoot(),
+    TooltipModule.forRoot(),
+    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
