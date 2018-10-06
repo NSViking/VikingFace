@@ -5,38 +5,8 @@
     box-sizing: border-box;
 }
 
-  .row {
-      margin: 15px 15px;
-  }
-  .row.margin0 {
-    margin:0px
-  }
+  @import url(https://fonts.googleapis.com/css?family=Lato:900);
 
-
-body{
-    height: 100vh;
+  body{
     font-family: 'Lato', sans-serif;
-}
-
-h1{
-    font-weight: 600;
-    font-size: 40px;
-    color:#ffffff;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-h2{
-    font-weight: 300;
-    font-size: 30px;
-    color:#c0c0c0;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-p{
-    font-weight: 100;
-    font-size: 18px;
-    color:#c0c0c0;
-    text-align: center;
-}
+  }

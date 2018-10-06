@@ -1,14 +1,30 @@
 <div class="light" style="overflow: hidden;">
 
-    <div  class="container-fluid container">
+    <div  class="container">
         <div class="row center-box">
 
                 <a href="https://github.com/NSViking" class="title-name">@NSViking</a>
                 <h2 class="name">Víctor Vicente Sánchez</h2>        
                 <h3 class="title-name">Passionate Software Engineer</h3>
-                <button class="download">Download</button>
+                <button class="download-icon" (click)="downloadCV()"></button>
+                <hr class="separator">
+                <div class="navbar">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" (click)="redirectToPresentation()">Presentation</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" (click)="redirectToCarrer()">Carrer</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" (click)="redirectToSkills()">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" (click)="redirectToCollaborations()">Collaborations</a>
+                    </li>
+                  </ul>
+                </div>
         </div>
-        
     </div>
 
 </div>

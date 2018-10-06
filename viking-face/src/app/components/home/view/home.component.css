@@ -5,29 +5,37 @@
     min-height: 100%;
   }
 
-  @import url(https://fonts.googleapis.com/css?family=Lato:900);
-
-  body{
-    font-family: 'Lato', sans-serif;
-  }
-
   .name {
     color: aliceblue !important;
-    font-size: 40px !important;
+    text-transform: capitalize;
+    font-size: 60px !important;
     font-weight: normal;
+    font-style: oblique;
     margin: 15px;
     font-family: 'Lato', sans-serif;
   }
   .title-name {
     color: aliceblue;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
-
+    font-style: italic;
     font-family: 'Lato', sans-serif;
   }
 
+  .download-icon {
+    margin-top: 30px;
+    cursor:pointer;
+    border:none;
+    width: 64px;
+    height: 64px;
+    background-image:url("/assets/images/icDownload.png");
+    background-repeat:no-repeat;
+    background-color: black;
+    /* background: transparent; */
+  }
+
   .center-box {
-    margin: 10% 10% !important;
+    margin: 15% 10% !important;
   }
 
 .container {
@@ -55,4 +63,36 @@
   border-radius: 8px;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
+}
+
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* Internet Explorer 7 compatibility */
+  *zoom:1;
+  vertical-align: top;
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+  font-weight: 300;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.separator {
+  width: 50%;
+  text-align:center; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
