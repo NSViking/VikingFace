@@ -11,23 +11,23 @@
     font-family: 'Lato', sans-serif;
   }
 
-  .h2, h2 {
+  .name {
     color: aliceblue !important;
     font-size: 40px !important;
     font-weight: normal;
-    margin: 20px;
+    margin: 15px;
     font-family: 'Lato', sans-serif;
   }
-  .h3, h3 {
+  .title-name {
     color: aliceblue;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: lighter;
 
     font-family: 'Lato', sans-serif;
   }
 
   .center-box {
-    margin: 20% 20% !important;
+    margin: 10% 10% !important;
   }
 
 .container {
@@ -43,4 +43,16 @@
   -moz-background-size: cover;    /* Mozilla*/
   -o-background-size: cover;      /* Opera*/
   background-size: cover; 
+}
+
+.download {
+  margin: 20px;
+  width: 150px;
+  height: 45px;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
