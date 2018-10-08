@@ -56,36 +56,6 @@ downloadCV() {
         });
 }
 
-// downloadCV() {
-//   return this.http
-//     .get('https://res.cloudinary.com/aka7/image/upload/v1538855786/Victor/CVV%C3%ADctor.ai', {
-//       responseType: ResponseContentType.Blob
-//     })
-//     .map(res => {
-//       return {
-//         filename: 'VictorVicenteSanchez.pdf',
-//         data: res.blob()
-//       };
-//     })
-//     .subscribe(res => {
-//         console.log('start download:',res);
-//         var url = window.URL.createObjectURL(res.data);
-//         var a = document.createElement('a');
-//         document.body.appendChild(a);
-//         a.setAttribute('style', 'display: none');
-//         a.href = url;
-//         a.download = res.filename;
-//         a.click();
-//         window.URL.revokeObjectURL(url);
-//         a.remove(); // remove the element
-//       }, error => {
-//         console.log('download error:', JSON.stringify(error));
-//       }, () => {
-//         console.log('Completed file download.')
-//       });
-//
-//     }
-
     redirectToPresentation() {
       let link = ['presentation'];
       this.router.navigate(link);
