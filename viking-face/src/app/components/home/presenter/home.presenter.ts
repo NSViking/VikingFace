@@ -7,7 +7,6 @@ import { Injectable,Injector } from '@angular/core'
 import 'rxjs/Rx';
 // Import RxJs required methods
 import 'rxjs/add/operator/catch';
-import { map } from "rxjs/operators";
 import {HomeInteractorContract} from "../interactor/HomeInteractorContract";
 import {HomeInteractor} from "../interactor/home.interactor";
 import {UserRepository} from "../../../../repositories/UserRepository/UserRepository";
@@ -40,8 +39,8 @@ downloadCV() {
       return this.interactor.getCV()
         .subscribe(res => {
           console.log('start download:',res);
-          var url = window.URL.createObjectURL(res.data);
-          var a = document.createElement('a');
+          let url = window.URL.createObjectURL(res.data);
+          let a = document.createElement('a');
           document.body.appendChild(a);
           a.setAttribute('style', 'display: none');
           a.href = url;
