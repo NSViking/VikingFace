@@ -6,6 +6,10 @@ import { CommonModule } from '@angular/common';
 import { FormsModule }   from '@angular/forms';
 
 import { HomeModule } from './components/home/home.module';
+import { CarrerModule } from './components/carrer/carrer.module';
+import { PresentationModule } from './components/presentation/presentation.module';
+import { ProjectsModule } from './components/projects/projects.module';
+import { SkillsModule } from './components/skills/skills.module';
 
 import { AppComponent } from './app.component';
 
@@ -27,6 +31,10 @@ import { ModalModule } from 'ngx-bootstrap/modal';
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ]),
     HomeModule,
+    PresentationModule,
+    CarrerModule,
+    ProjectsModule,
+    SkillsModule,
     BsDropdownModule.forRoot(),
     TooltipModule.forRoot(),
     ModalModule.forRoot()

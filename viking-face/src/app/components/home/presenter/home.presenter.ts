@@ -10,7 +10,7 @@ import 'rxjs/add/operator/catch';
 import {HomeInteractorContract} from "../interactor/HomeInteractorContract";
 import {HomeInteractor} from "../interactor/home.interactor";
 import {UserRepository} from "../../../../repositories/UserRepository/UserRepository";
-import {HTTPClient} from "../../../../Clients/HTTPClient";
+import {HTTPClient} from "../../../../clients/HTTPClient";
 
 @Component({
   selector: 'home',
@@ -61,7 +61,7 @@ downloadCV() {
     }
 
     redirectToCollaborations() {
-      let link = ['collaborations'];
+      let link = ['projects'];
       this.router.navigate(link);
     }
 
