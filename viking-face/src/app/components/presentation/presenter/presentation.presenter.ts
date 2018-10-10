@@ -23,4 +23,8 @@ export class PresentationPresenter implements OnInit {
 
     ngOnInit(): void {
     }
+
+    redirectToHome() {
+
+    }
 }

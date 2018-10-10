@@ -5,7 +5,7 @@
     left: 0px;
     top: 0px;
     z-index: -1;
-    text-align: left;
+    text-align: center;
     background: url("/assets/images/Viti.png") no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
@@ -50,5 +50,5 @@
     font-weight: 600;
     margin-left: 10%;
     margin-right: 30%;
-    margin-top: 8%;
+    margin-top: 3%;
 }
