@@ -13,6 +13,8 @@ import 'rxjs/add/operator/catch';
 })
 export class NavigationPresenter implements OnInit {
 
+  currentPage = ""
+
   constructor(private injector: Injector,
               private router: Router) {
     this.router = router;
@@ -24,22 +26,27 @@ export class NavigationPresenter implements OnInit {
 
   redirectToHome() {
     let link = ['/'];
+    this.currentPage = link[0];
     this.router.navigate(link);
   }
   redirectToPresentation() {
     let link = ['presentation'];
+    this.currentPage = link[0];
     this.router.navigate(link);
   }
   redirectToCarrer() {
     let link = ['carrer'];
+    this.currentPage = link[0];
     this.router.navigate(link);
   }
   redirectToSkills() {
     let link = ['skills'];
+    this.currentPage = link[0];
     this.router.navigate(link);
   }
   redirectToCollaborations() {
     let link = ['projects'];
+    this.currentPage = link[0];
     this.router.navigate(link);
   }
 }
