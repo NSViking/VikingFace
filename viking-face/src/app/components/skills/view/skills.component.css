@@ -1,14 +1,236 @@
-.container {
+.backgroundviti {
     width: 100%;
     height: 100%;
-    position: fixed;
     left: 0px;
     top: 0px;
     z-index: -1;
-    text-align: center;
+    text-align: left;
     background: url("/assets/images/Viti.png") no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;
+}
+
+
+.text {
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  top: 35%;
+}
+
+.littleText {
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  top: 35%;
+}
+
+.ball {
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  border-radius: 50%;
+  position: relative;
+  background: radial-gradient(circle at 50% 120%, #81e8f6, #76deef 10%, #055194 80%, #062745 100%);
+}
+
+.ball:before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+  filter: blur(5px);
+  z-index: 2;
+}
+
+.java {
+  margin-left: -20px;
+  margin-bottom: -90px;
+  width: 170px;
+  height: 170px;
+}
+
+.languageC {
+  margin-left: 20px;
+  margin-top: -40px;
+  margin-bottom: -100px;
+}
+
+.languageCCC {
+  width: 120px;
+  height: 120px;
+  margin-left: 20px;
+}
+
+.objectPascal {
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+
+.objectC {
+  width: 190px;
+  height: 190px;
+  margin-bottom: -100px;
+  margin-top: 30px;
+}
+
+.swift {
+  width: 190px;
+  height: 190px;
+  margin-left: 100px;
+  margin-bottom: -90px;
+}
+
+.android {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+.kubernetes {
+  width: 80px;
+  height: 80px;
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: -10px;
+}
+
+.docker {
+  width: 120px;
+  height: 120px;
+  margin-top: -10px;
+}
+
+.jenkins {
+  width: 80px;
+  height: 80px;
+  margin-left: 30px;
+  margin-top: -50px;
+  margin-bottom: -40px;
+}
+
+.apache {
+  margin-left: 50px;
+  margin-top: -10px;
+}
+
+.aws {
+  width: 60px;
+  height: 60px;
+  margin-left: 75px;
+}
+
+.gcp {
+  width: 60px;
+  height: 60px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.laravel {
+
+}
+
+.php {
+
+}
+
+.html {
+  width: 80px;
+  height: 80px;
+}
+
+.css {
+  width: 60px;
+  height: 60px;
+}
+
+.jquery {
+  width: 60px;
+  height: 60px;
+}
+
+.js {
+  width: 80px;
+  height: 80px;
+}
+
+.angular {
+
+}
+
+
+.cards {
+  background-color: aliceblue;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 440px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+.cards-body {
+  padding: 2px 16px;
+}
+
+.cards-title {
+  color: black;
+  font-style: normal;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  top: 30px;
+}
+
+p>b {
+  color: black;
+}
+
+.cards-text {
+  color: gray;
+  font-style: normal;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  top: 50px;
+}
+
+.skillsTitles {
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  margin-top: 40px;
+}
+
+.skillsDescription {
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
