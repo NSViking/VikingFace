@@ -8,6 +8,7 @@ import { PresentationRouter } from './router/presentation.router';
 import { PresentationPresenter } from './presenter/presentation.presenter';
 import { PresentationInteractor } from './interactor/presentation.interactor';
 
+import { NavigationModule } from '../navigation/navigation.module';
 
 @NgModule({
     imports: [
@@ -15,6 +16,7 @@ import { PresentationInteractor } from './interactor/presentation.interactor';
         CommonModule,
         FormsModule,
         CommonModule,
+        NavigationModule,
         RouterModule.forChild(PresentationRouter.routes),
     ],
     declarations: [

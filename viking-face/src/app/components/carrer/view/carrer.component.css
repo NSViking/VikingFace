@@ -4,6 +4,7 @@
     left: 0px;
     top: 0px;
     z-index: -1;
+  text-align: center;
     background: url("/assets/images/Viti.png") no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
@@ -11,9 +12,33 @@
     background-size: cover;
 }
 
+.carrerTitles {
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.carrerDescription {
+  color: white;
+  font-style: normal;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .carrerImage {
-    width: 400px;
-    height: 200px;
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
 }
 
 .padding {
@@ -39,9 +64,9 @@
 
 .jobTitle{
     margin-top: 10px;
-    color: #9d9d9d;
+    color: antiquewhite;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
     font-family: 'Lato', sans-serif;
 }
@@ -57,9 +82,9 @@
 
 .description{
     margin-top: 10px;
-    color: #9d9d9d;
+    color: honeydew;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: lighter;
     font-style: normal;
     font-family: 'Lato', sans-serif;
 }
@@ -73,4 +98,10 @@
     margin-left: 10%;
     margin-right: 30%;
     margin-top: 3%;
+}
+
+.job {
+  text-align: left;
+  margin-bottom: 30px;
+  padding: 5px 5px;
 }

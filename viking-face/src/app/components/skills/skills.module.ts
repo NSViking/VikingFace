@@ -8,6 +8,7 @@ import { SkillsRouter } from './router/skills.router';
 import { SkillsPresenter } from './presenter/skills.presenter';
 import { SkillsInteractor } from './interactor/skills.interactor';
 
+import { NavigationModule } from '../navigation/navigation.module';
 
 @NgModule({
     imports: [
@@ -15,6 +16,7 @@ import { SkillsInteractor } from './interactor/skills.interactor';
         CommonModule,
         FormsModule,
         CommonModule,
+        NavigationModule,
         RouterModule.forChild(SkillsRouter.routes),
     ],
     declarations: [

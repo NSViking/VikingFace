@@ -8,6 +8,7 @@ import { CarrerRouter } from './router/carrer.router';
 import { CarrerPresenter } from './presenter/carrer.presenter';
 import { CarrerInteractor } from './interactor/carrer.interactor';
 
+import { NavigationModule } from '../navigation/navigation.module';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { CarrerInteractor } from './interactor/carrer.interactor';
     CommonModule,
     FormsModule,
     CommonModule,
+    NavigationModule,
     RouterModule.forChild(CarrerRouter.routes),
   ],
   declarations: [
