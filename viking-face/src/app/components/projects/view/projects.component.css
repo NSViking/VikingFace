@@ -19,6 +19,19 @@
   margin-top: 50px;
   margin-bottom: -30px;
   background-color: gray;
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
+  background: white;
+}
+
+.projectHeaderImageFixed {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: -30px;
+  background-color: gray;
+  object-fit: cover;
 }
 
 .projectTitles {

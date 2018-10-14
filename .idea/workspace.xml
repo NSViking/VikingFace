@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea482f3e-dd16-4cea-8723-d60b879bbe6e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/viking-face/src/app/components/navigation/presenter/navigation.presenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/viking-face/src/app/components/navigation/presenter/navigation.presenter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viking-face/src/app/components/navigation/view/navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/viking-face/src/app/components/navigation/view/navigation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viking-face/src/app/components/projects/presenter/projects.presenter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/viking-face/src/app/components/projects/presenter/projects.presenter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +15,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="projects.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects.presenter.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/projects/presenter/projects.presenter.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="29" selection-end-column="22" />
+              <folding>
+                <element signature="e#1#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projects.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+              <folding>
+                <element signature="e#523#691#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>carrerImage</find>
+      <find>projec</find>
+      <find>enableProdMode()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -26,8 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/viking-face/package.json" />
-        <option value="$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.css" />
         <option value="$PROJECT_DIR$/viking-face/src/app/components/skills/view/skills.component.css" />
         <option value="$PROJECT_DIR$/viking-face/src/app/components/carrer/view/carrer.component.css" />
         <option value="$PROJECT_DIR$/viking-face/src/app/components/navigation/router/navigation.router.ts" />
@@ -37,13 +76,18 @@
         <option value="$PROJECT_DIR$/viking-face/src/app/components/carrer/carrer.module.ts" />
         <option value="$PROJECT_DIR$/viking-face/src/app/components/navigation/navigation.module.ts" />
         <option value="$PROJECT_DIR$/viking-face/src/app/components/presentation/presentation.module.ts" />
-        <option value="$PROJECT_DIR$/viking-face/src/app/components/projects/projects.module.ts" />
         <option value="$PROJECT_DIR$/viking-face/src/app/components/skills/skills.module.ts" />
         <option value="$PROJECT_DIR$/viking-face/src/app/components/skills/view/skills.component.html" />
-        <option value="$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.html" />
         <option value="$PROJECT_DIR$/viking-face/src/app/components/presentation/view/presentation.component.html" />
         <option value="$PROJECT_DIR$/viking-face/src/app/components/navigation/view/navigation.component.html" />
         <option value="$PROJECT_DIR$/viking-face/src/app/components/navigation/presenter/navigation.presenter.ts" />
+        <option value="$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.css" />
+        <option value="$PROJECT_DIR$/viking-face/src/index.html" />
+        <option value="$PROJECT_DIR$/viking-face/src/app/components/projects/projects.module.ts" />
+        <option value="$PROJECT_DIR$/viking-face/package.json" />
+        <option value="$PROJECT_DIR$/viking-face/package-lock.json" />
+        <option value="$PROJECT_DIR$/viking-face/src/app/components/projects/presenter/projects.presenter.ts" />
+        <option value="$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.html" />
       </list>
     </option>
   </component>
@@ -62,10 +106,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-25" />
-    <option name="y" value="-954" />
-    <option name="width" value="1400" />
-    <option name="height" value="794" />
+    <option name="x" value="-240" />
+    <option name="y" value="-996" />
+    <option name="width" value="1440" />
+    <option name="height" value="833" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -124,75 +168,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="carrer" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularCV" type="462c0819:PsiDirectoryNode" />
-              <item name="viking-face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularCV" type="462c0819:PsiDirectoryNode" />
-              <item name="viking-face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="presenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularCV" type="462c0819:PsiDirectoryNode" />
-              <item name="viking-face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularCV" type="462c0819:PsiDirectoryNode" />
-              <item name="viking-face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
-              <item name="presenter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularCV" type="462c0819:PsiDirectoryNode" />
-              <item name="viking-face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularCV" type="462c0819:PsiDirectoryNode" />
-              <item name="viking-face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="presentation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularCV" type="462c0819:PsiDirectoryNode" />
-              <item name="viking-face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="presentation" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AngularCV" type="b2602c69:ProjectViewProjectNode" />
@@ -211,33 +187,7 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularCV" type="462c0819:PsiDirectoryNode" />
-              <item name="viking-face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="skills" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularCV" type="462c0819:PsiDirectoryNode" />
-              <item name="viking-face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="skills" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularCV" type="462c0819:PsiDirectoryNode" />
-              <item name="viking-face" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
+              <item name="presenter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,25 +231,28 @@
       <updated>1539197046330</updated>
       <workItem from="1539197052232" duration="537000" />
       <workItem from="1539339305832" duration="20646000" />
+      <workItem from="1539538356448" duration="5846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21183000" />
+    <option name="totallyTimeSpent" value="27029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-240" y="-1057" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50106496" side_tool="true" visible="true" weight="0.23692636" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159746" side_tool="true" visible="true" weight="0.22091782" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49893504" visible="true" weight="0.23692636" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49840257" visible="true" weight="0.22091782" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18903089" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18530351" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -307,10 +260,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="7" sideWeight="0.49928573" weight="0.32916668" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,9 +281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -344,27 +293,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/viking-face/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/home/view/home.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
           <caret line="67" selection-start-line="67" selection-end-line="74" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="23" selection-start-line="23" selection-end-line="44" selection-end-column="1" />
-          <folding>
-            <element signature="e#523#691#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -402,16 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/navigation/router/navigation.router.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/skills/presenter/skills.presenter.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -423,11 +345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -435,22 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -458,9 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -468,19 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/projects/projects.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,16 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/viking-face/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/carrer/carrer.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -528,9 +403,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/navigation/view/navigation.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/navigation/presenter/navigation.presenter.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="375">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#1#51#0" expanded="true" />
@@ -538,10 +420,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/navigation/view/navigation.component.html">
+    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/navigation/router/navigation.router.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/node_modules/angular-youtube-embed/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/node_modules/angular-youtube-embed/src/demo/advanced.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/node_modules/angular-youtube-embed/test/config/karma.conf.coffee">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="113" lean-forward="true" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/projects/projects.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="67" lean-forward="true" selection-start-line="10" selection-start-column="67" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <element signature="e#523#691#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/presentation/presenter/presentation.presenter.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/projects/presenter/projects.presenter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#1#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viking-face/src/app/components/projects/view/projects.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
