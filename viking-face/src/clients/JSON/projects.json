@@ -1,0 +1,131 @@
+[
+  {
+    "brand": "AKA7",
+    "projects": {
+    "title": "Viking Face",
+    "decription": [
+      "This website is my last project. You are navigating here so you has saw what is it. To show and offer my skills to the public I thought that was a good idea create a CLEAN project with my favorite framwork for web <b>Angular X<b>.",
+      "I put the X because Angular are updating always, when I started the current version was 6.0, but I try to update to the last version always because their are offer a great improvements in each version.",
+      "This repo is public so you can check it on Github, in my account @NSViking,",
+      "And for more collaboration to the community I'm creating a great tutorial in medium with all steps to do it. You can enjoy it ASAP."
+    ],
+    "link": ""
+  },
+    "projects": {
+      "title": "Moni",
+      "decription": [
+        "My last iOS App is this. At my current job we have some perks and one of this is the Restaurant Pass, but is it with La Caixa, a bank of Spain, they have a service that call <b>Money To Pay<b/>.",
+        "They have a website to check you movements and balance, but is so tricky because you need add the card every time you want access.",
+        "So this is my approach, I manage the credit cards to save the numbers and only with one click you can redirect to the necessary website and only enter the security code and check.",
+        "Yes, I'm doing trampas but I tried to check the endpoints to attack directy and improve the mobile experience but they have closed this service, un aplauso! The security is very important and this guys knows."
+      ],
+      "link": ""
+    },
+    "projects": {
+      "title": "TriviSeries",
+      "decription": [
+        "Waw! My favorite. This is my love, my first great game. With multiplayer about one of the things I'm in love (TVSeries). I started this project 3 years ago more or less. And I needed to do the backend services when I didn't know nothing about it, so I decided do with PHP but alone without frameworks.",
+        "I did one of my firsts iOS apps for it. So I can improve the code every week because I learnt more things or because I discovered more utils. Obiously all the design is not mine. I was the head for that but I count with a friend to draw it, are some simple things but others like the pieces was awesome.",
+        "My favorite thing about it was the implementation for the ways when you use the dado. Because I implemented a GRAPH to show the differents options to the user. Awesome solution.",
+        "I earned around 500$ with this game, but some things, other jobs and my free time stopped it and I love to return some day."
+      ],
+      "link": ""
+    },
+    "projects": {
+      "title": "CRLaserTag",
+      "decription": [
+        "CR the best player ever XD. I love the Real Madrid and CR was a great player for us. But when he started at the Real Madrid I was starting to discover this world so ... One friend told me about the idea to do a game to touch a CR with a laser ... At this moment I thought that it could be funny. But I didn't know the work that it was required.",
+        "Around 6 months or more I was checking, learning and developing with the library Cocos2d for iOS, I drew, scan and redraw with Illustration the differents positions to CR movements and connected with the physics of iOS project.",
+        "I developed 3 differents mode of games: Touch a CR while he try to goal, save CR while the people at the stadium get out some things to his and do Combos while a lot of CR's appears at the screen, with Combos and failings depends of you appunt.",
+        "It was very hard but very funny, I learned how do games at it was awesome. This game takes more than 60K downloads at the AppStore, but it was free I earned with Ads and it not was much, around 400$, some years after Apple come to me and remove my App because CR image."
+      ],
+      "link": ""
+    },
+    "projects": {
+      "title": "Ronaldo Runner",
+      "decription": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "link": ""
+    },
+    "projects": {
+      "title": "QuikAccess",
+      "decription": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "link": ""
+    }
+},
+  {
+    "brand": "DevSoul",
+    "projects": {
+    "title": "Microboxes",
+    "decription": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "link": ""
+  },
+    "projects": {
+      "title": "aeroclAPP",
+      "decription": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "link": ""
+    },
+    "projects": {
+      "title": "Expo Portugal",
+      "decription": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "link": ""
+    }
+},
+  {
+    "brand": "TourWhiz",
+    "projects": {
+      "title": "iOS Native App",
+      "decription": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "link": ""
+    },
+    "projects": {
+      "title": "Angular App for BIZ",
+      "decription": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "link": ""
+    },
+    "projects": {
+      "title": "API",
+      "decription": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "link": ""
+    }
+  }
+]
