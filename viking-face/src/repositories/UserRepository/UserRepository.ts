@@ -1,5 +1,5 @@
 import {Injectable, Optional} from '@angular/core';
-import {HTTPClientContract} from "../../clients/HTTPClientContract";
+import {HTTPClientContract} from "../../clients/HTTP/HTTPClientContract";
 import {UserRepositoryContract} from "./UserRepositoryContract";
 import {ResponseContentType} from "@angular/http";
 import {Observable} from "rxjs/Rx";

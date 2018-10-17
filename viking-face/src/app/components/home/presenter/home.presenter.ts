@@ -10,7 +10,7 @@ import 'rxjs/add/operator/catch';
 import {HomeInteractorContract} from "../interactor/HomeInteractorContract";
 import {HomeInteractor} from "../interactor/home.interactor";
 import {UserRepository} from "../../../../repositories/UserRepository/UserRepository";
-import {HTTPClient} from "../../../../clients/HTTPClient";
+import {HTTPClient} from "../../../../clients/HTTP/HTTPClient";
 
 @Component({
   selector: 'home',
